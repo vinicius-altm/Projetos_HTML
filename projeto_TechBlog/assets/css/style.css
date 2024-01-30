@@ -1,0 +1,170 @@
+/* 
+Modelo caixa
+
+
+.conteudo-primario, .conteudo-secundario{
+    border: 1px solid red;
+    padding: 20px ;
+    margin: 20px;
+    width: 150px;
+}
+
+/*
+Elementos flutuantes
+-- float: Posicionamento dos elementos
+-- clear: utilizado para limpar elementos flutuantes
+*/
+/*
+.principal{
+    background: grey;
+    border: 5px solid black;
+}
+.conteudo-1, .conteudo-2, .conteudo-3{
+    background-color: brown;
+    border: 1px solid;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin:10px;
+}
+.conteudo-texto{
+    clear:both; 
+   
+}
+*/
+
+
+
+
+
+
+/*Elementos Flutuantes na pratica
+body{
+    background: #f4f4f4;
+}
+.principal{
+    width: 920px;
+   
+   
+}
+
+.conteudo-noticia{
+    background: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 8px;
+    float: left;
+}
+.imagem{
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 10px;
+}
+.clear{
+clear: both;
+}
+*/
+
+
+
+/*Elementos inline-block, inline, block
+<span> - inline
+inline-block - quebra de linha apenas quando não tem espaço.
+block - elementos um em baixo do outro
+
+.borda{
+    border: 1px solid red;
+    display: inline-block;
+}
+*/
+
+/* Posicionatamento
+
+- Estatico, absoluto, relativo e fixo
+- absolute depende do posicionamento do container
+
+*/
+/*
+body{
+    background: #007fc7;
+}
+*/
+
+
+/*
+.container{
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+p{
+    width: 300px;
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;
+   top:-50px;
+   left: 50%;
+}
+
+
+.absolute{
+    border: 1px solid red;
+    position: absolute;
+   top:-50px;
+   left: 50%;
+}
+
+.fixed{
+    border: 1px solid red;
+    position: fixed;
+    top:0px;
+   left: 0px;
+}
+
+*/
+
+
+/*Sobrepondo elementos
+z-index: contexto de empilhamento
+
+
+.conteudo1{
+    border: 1px solid red;
+    background: yellow ;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+   
+}
+.conteudo2{
+    border: 1px solid red;
+    background: green ;
+    top:80px ;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+   
+}
+.conteudo3{
+    border: 1px solid red;
+    background: white ;
+    top:160px;
+    left: 160px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+   
+}
+*/
+

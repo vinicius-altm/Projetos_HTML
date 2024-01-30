@@ -1,0 +1,286 @@
+/* --------------------------------------------------------------------
+
+CONFIGURAÇÃO GERAL/ ESTILIZANDO TOPO
+
+1- BODY
+2- LOGO
+3- BARRA DE NAVEGAÇÃO - TOPO
+
+------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../images/fundo.png) repeat-x;
+
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.logo-topo1 {
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    padding: 25px;
+
+}
+
+.logo {
+    text-indent: -3000px;
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png) no-repeat right top;
+
+}
+
+
+
+/*
+Barra de navegação -
+*/
+
+ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.logo-topo1 ul {
+    background: #b10333;
+    float: left;
+}
+
+.logo-topo1 ul li {
+
+    float: left;
+}
+
+.logo-topo1 ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../images/divisor.png) no-repeat left center;
+
+}
+
+.logo-topo1 ul .li a {
+    background: none;
+}
+
+.logo-topo1 ul a:hover {
+    color: #69001d
+}
+
+
+/*selecionando links do menu*/
+
+body.home .navegacao a#home,
+body.brasil .navegacao a#brasil,
+body.internacional .navegacao a#internacional,
+body.economia .navegacao a#economia,
+body.saude .navegacao a#saude,
+body.ciencia .navegacao a#ciencia,
+body.fotos .navegacao a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: pointer;
+}
+
+/*-----------------------
+FIM BARRA DE NAVEGAÇÃO - TOPO
+-------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------------
+CONTEUDO DA PAGINA
+
+4 - CONTEUDO
+5 - LATERAL E LINKS
+
+
+----------------------------------------------------------------------*/
+
+.conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+
+
+}
+
+/*   CONFIGURAÇÃO LATERAL */
+.lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+
+}
+
+.lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 25px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.lateral ul a:hover {
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+/* -----------------------------------------------------------------
+FIM CONFIG LATERAL
+----------------------------------------------------------------------*/
+
+
+
+/* --------------------------------
+
+CONFIGURAÇÃO COLUNAS
+----------------------------------*/
+
+.box {
+    margin: 10px 0;
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+
+
+}
+
+.box-conteudo {
+    background: #fff ;
+    padding: 5px;
+    margin-top: 5px;
+}
+/* --------------------------------
+
+FIM DA CONFIGURAÇÃO DAS COLUNAS
+----------------------------------*/
+
+
+
+
+/* ---------------------------------
+       ESTILIZANDO FORMULARIO
+------------------------------------- */
+.formulario{
+    padding: 5px;
+    background-color: #e7e7e7;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+    margin: 5px;
+    color: #a1a1a1;
+
+}
+input{
+    width: 145px;
+    border: none;
+    border-radius: 2px; 
+    outline: none;
+    padding: 2px;
+    font-size: 0.9em;
+    background-color: #fff ;
+}
+input:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn{
+    width: 140px;
+    padding: 5px;
+    border-radius: 4px;
+    border:  none;
+    margin: 5px;
+    background-color: #b10333;
+    color: #fff;
+}
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*
+        FIM - ESTILIZANDO FORMULARIO
+*/
+
+
+
+
+/* ----------------------------
+FORMATAÇÃO PARA COLUNAS  3 COLUNAS
+---------------------------------
+*/
+.conteudo-primario {
+    width: 270px;
+
+    float: left;
+    margin: 0 0 20px 195px;
+
+}
+
+
+/*-------------------------------
+FORMATAÇÃO PARA COLUNAS - 2 COLUNAS
+---------------------------------*/
+#col-2 .conteudo-primario {
+    width: 555px;
+    margin: 0 0 20px 0;
+    ;
+}
+
+/*----------------------------
+FORMATAÇÃO PARA COLUNAS - 1 COLUNA
+-------------------------------*/
+#col .conteudo-primario {
+    width: 750px;
+
+}
+
+.conteudo-secundario {
+    width: 270px;
+
+    float: left;
+    margin: 0 0 20px 15px;
+
+
+}
+
+
+/* Rodapé da página*/
+
+.footer {
+    width: 750px;
+    padding: 20px;
+    text-align: center;
+    background: #303030;
+    clear: both;
+}
+
+.footer-2 {
+    
+    margin: 0 auto;
+    color: #fff;
+}

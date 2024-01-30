@@ -1,0 +1,59 @@
+/*
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: auto;
+   
+}
+*/
+body {
+    background: #d2d2d2c1 url('../images/fundo.png');
+    font: 16px Arial, helvetica, sans-serif;
+}
+
+.principal {
+    width: 900px;
+
+}
+
+.menu {
+    background: #c5c5b2;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    padding: 8px;
+    color: #4b566a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+
+}
+
+.conteudo-home {
+
+    background: #e8e8d9;
+    padding: 20px;
+
+}
+
+.img-campanha{
+    border:5px solid #c5c5b2;
+}
+
+footer{
+    text-align: center;
+}

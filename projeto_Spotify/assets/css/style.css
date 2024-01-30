@@ -1,0 +1,306 @@
+/*
+@autor Vinicius.A
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+   
+}
+
+html, body, #home{
+    height: 100%;
+}
+body{
+    background: url(../images/capa.png), 
+     url(../images/ruido.png),
+     linear-gradient(50deg, #ff4169, #7c26f5);
+     background-attachment: fixed;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Barra de navegação*/
+.navbar{
+    padding: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-family: 'Poppins';
+  
+}
+.navbar-nav .nav-item .nav-link:hover{
+    
+    color: #7c26f5;
+}
+
+
+.navbar li:nth-child(4){
+    width: 1px;
+    background: #fff;
+    margin: 12px 15px;
+}
+
+/*
+----------------------------------------------------CAPA -----------------------------------------------
+*/
+
+section #capa{
+    text-align: center;
+}
+
+.btn-custom{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px ;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+.btn-color1{
+    background-color: #7c26f5;
+    margin-right: 10px;
+    
+}
+.btn-color1:hover{
+    background-color: #6207e3;
+    color: #fff;
+    
+}
+.btn-color2{
+    border:  1px solid #ffff;
+}
+.btn-color2:hover{
+    background-color: #ffff;
+    color: #303030;
+    
+}
+
+.carousel-control-next, .carousel-control-prev{
+    
+    width: 50px;
+    height: 50px;
+    top:50%;
+    padding: 30px;
+    border-radius: 60px;
+    background-color: #7c25f8;
+}
+/** TIPOGRAFIA**/
+h1{
+    letter-spacing: -0.05em;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: #fff;
+}
+h2{
+    letter-spacing: -0.04em;
+    font-weight: 700;
+    font-size: 3em;
+}
+h3{
+    letter-spacing: -0.04em;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+/** 
+-----------------------------------------SERVIÇO / RECURSOS---------------------------------------------------
+**/
+
+.servicos{
+    background: #ffff;
+    padding: 20px 0 20px 0;
+}
+.servicos h2, h3{
+    color: #7c25f8;
+    font-family: 'Poppins';
+}
+.servicos p{
+    color: #303030;
+}
+.albuns{
+    padding: 10px 0;
+}
+.recursos{
+ 
+    padding: 20px 0 20px 0;
+}
+
+.recursos h2, h4, p{
+    color: #fff;
+    font-family: 'Poppins';
+    cursor: pointer;
+
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    cursor: pointer;
+
+}
+
+/* FOOTER */
+
+footer{
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+footer .logo img{
+    width: 150px;
+}
+
+footer h4{
+    color: #919496 ;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+footer  .navbar-nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 0.8em;
+}
+footer  .navbar-nav a::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-bottom: 4px solid transparent;
+    transition: .9s;
+}
+footer  .navbar-nav a:hover::after{
+    content: '';
+    width: 50%;
+    height: 0;
+    border-bottom: 2px solid #eae2cf;
+}
+
+/**Desktops**/
+footer ul li {
+	float: right;
+	margin: 0 10px;
+}
+footer ul li a img{
+    width: 80px;
+}
+ 
+
+
+/** MEDIA QUERYS**/
+
+@media (min-width: 320px) { 
+    h1{
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin-bottom: 10px;
+        font-size:  1em;
+    }   
+   
+    
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    h1{
+        font-size: 3em;
+    }
+    
+  
+
+    .btn-custom{
+        margin: 10px 15px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+    
+        width: 20px;
+        height: 20px;
+        top:50%;
+        padding: 30px;
+        border-radius: 50px;
+        background-color: #7c25f8;
+    }
+    footer .col-md-2 h4{
+        text-align: center;
+    }
+    footer ul, .logo  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+       
+    
+    footer  .navbar-nav a::after{
+        content: '';
+        width: 0;
+        height: 0;
+        position: relative;
+        left: 25%;
+        display: block;
+        border-bottom: 4px solid transparent;
+        transition: .9s;
+    }
+    footer  .navbar-nav a:hover::after{
+        content: '';
+        width: 60%;
+        height: 0;
+        border-bottom: 2px solid #eae2cf;
+    }
+ 
+    footer ul li a img{
+        width: 40px;
+    }
+}
+    
+ 
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    h1{
+        font-size: 4em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+    footer .logo img{
+        width: 100px;
+    }
+    footer ul li a img{
+        width: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    h1{
+        font-size: 5em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+
+    
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ 
+    footer .logo img{
+        width: 150px;
+        
+    }
+   
+    
+ }

@@ -1,0 +1,17 @@
+
+
+.section-first{
+    border: 2px solid red;
+    background: #17A2B8;
+    color: #fff;
+   
+}
+
+.section-second, .section-third, .section-fourth{
+    padding: 60px 0;
+}
+
+footer .social{
+    margin: 5px 10px;
+}
+

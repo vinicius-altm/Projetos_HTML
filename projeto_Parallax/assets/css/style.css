@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+font: 16px "Lato" san-serif;
+color:#777;
+height: 100%;
+
+}
+
+.conteudo{
+   color: #777;
+   background-color: white;
+   text-align: justify;
+   padding: 50px 80px; 
+}
+.conteudo-titulo{
+    position:absolute;
+    text-align: center;
+    left:0;
+    top:45%;
+    width: 100%;
+   
+
+}
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.conteudo-titulo span.titulo:hover{
+    background: #65de76;
+    cursor: pointer;
+}
+h3{
+    text-transform: uppercase;
+    color:#111;
+    text-align: center;
+}
+
+/*config parallax*/
+
+.box1, .box2, .box3, .box4{
+    position: relative;
+    height: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+p{
+    margin-bottom: 20px;
+}
+
+.box1{
+background-image: url(../images/imagem1.jpg);
+}
+.box2{
+    background-image: url(../images/imagem2.jpg);
+}
+.box3{
+    background-image: url(../images/imagem3.jpg);
+    }
+.box4{
+        background-image: url(../images/imagem4.jpg);
+    }

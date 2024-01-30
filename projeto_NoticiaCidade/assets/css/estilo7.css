@@ -1,0 +1,48 @@
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}    
+.centralizar{
+    margin: auto;
+    width: 600px;
+
+}
+h2{
+    text-align: center;
+}
+fieldset{
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input[type="text"]{
+    width: 20em;
+
+}
+textarea{
+    width:250px;
+    height: 120px;
+    resize: none;
+}
+.radio{
+    margin: 0 1.2em;
+    width: auto;
+
+}
+
+@media screen and (max-width: 800px){
+    .centralizar{
+        width: 100%;
+       
+    }
+    body{
+        background-color: aquamarine;
+    }
+}

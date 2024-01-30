@@ -1,0 +1,46 @@
+body{
+font-family: "Trebuchet MS",  Helvetica, sans-serif;
+}
+
+h2{
+    width: 600px;
+    margin: auto;
+    border-top: 1px solid #1111;
+    border-bottom:1px solid red ;
+    text-align: center;
+}
+table{
+    width: 600px;
+    margin: auto;
+}
+th, td{
+
+border-collapse: separate;
+padding: 7px;
+
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #9999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing:  0.1em;
+}
+.tr{
+   background-color: #efefef;
+}
+tr:hover{
+    background-color:#c3e6e5;
+}
+/* //:nth-child() 
+//seleciona elementos com base em suas posições em um grupo de elementos irmãos.*/
+ th:nth-child(3){
+    text-align: right;
+ }
+ td:nth-child(3){
+    text-align: right;
+ }
+
+ 

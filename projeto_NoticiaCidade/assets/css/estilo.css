@@ -1,0 +1,42 @@
+ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height:40px;
+    width: 200px;
+    height: 40px;
+    background: url("../images/menu.png") no-repeat left bottom;
+}
+a:hover{
+    background-position: right bottom;
+    color: #ffff;
+    background-color: #f99200; 
+}
+
+/* Criamos classes para os LINKS pra mostrar quanso estiver selecionado,
+Criar paginas para cada link,
+Para ficar marcado quando clicar
+*/
+
+.home a, .sobre a, .servicos a, .noticias a, .contato a{
+    background-position: right bottom;
+    color: #ffff;
+    background-color: #f99200; 
+
+}
+/*
+li{
+    padding: 10px  20px;
+    background: url("../images/seta.png") no-repeat left center;
+}
+*/
+
